@@ -6,7 +6,8 @@ import django
 
 django.setup()
 
-from rango.models import Category, Page
+from rango.models.Category import Category
+from rango.models.Page import Page
 
 
 def populate():

@@ -10,7 +10,8 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - "/postgresql:/var/lib/postgresql/data"
+      - ./postgres-data:/var/lib/postgresql/data
+
   web:
     build: .
     command: python manage.py runserver 0.0.0.0:8080
