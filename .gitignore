@@ -1,3 +1,4 @@
-postrgree/
+postgres-data/
 .env
-*/migrations/
+__pycache__/
+*.py[cod]
