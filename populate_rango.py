@@ -20,17 +20,17 @@ def populate():
          'url': 'http://www.korokithakis.net/tutorials/python/','views' : 15}]
 
     django_pages = [{'title': 'Official Django Tutorial',
-                     'url': 'https://docs.djangoproject.com/en/2.1/intro/tutorial01/''views' : 30},
+                     'url': 'https://docs.djangoproject.com/en/2.1/intro/tutorial01/','views' : 30},
                     {'title': 'Django Rocks',
-                     'url': 'http://www.djangorocks.com/''views' : 40},
+                     'url': 'http://www.djangorocks.com/','views' : 40},
                     {'title': 'How to Tango with Django',
-                     'url': 'http://www.tangowithdjango.com/''views' : 12}]
+                     'url': 'http://www.tangowithdjango.com/','views' : 12}]
 
     other_pages = [
         {'title': 'Bottle',
-         'url': 'http://bottlepy.org/docs/dev/''views' : 69},
+         'url': 'http://bottlepy.org/docs/dev/','views' : 69},
         {'title': 'Flask',
-         'url': 'http://flask.pocoo.org''views' : 98}]
+         'url': 'http://flask.pocoo.org','views' : 98}]
 
     cats = {'Python': {'pages': python_pages, 'likes': 128, 'views' : 64},
             'Django': {'pages': django_pages, 'likes': 64, 'views' : 32},
