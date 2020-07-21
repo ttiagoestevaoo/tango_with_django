@@ -1,4 +1,4 @@
-postrgree
+postgres-data/
 .env
 __pycache__/
 *.py[cod]
